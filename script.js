@@ -8,6 +8,8 @@ let passwordOne = ""
 let passwordTwo = ""
 
 function generatePassword() {
+    passwordOne = ""
+    passwordTwo = ""
     for (let i = 0; i < 15; i++) {
         let randomCharacterOne = characters[Math.floor(Math.random() * characters.length)]
         passwordOne += randomCharacterOne
