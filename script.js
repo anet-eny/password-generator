@@ -8,5 +8,6 @@ let passwordOne = ""
 let passwordTwo = ""
 
 function generatePassword() {
-
+    let randomCharacter = characters[Math.floor(Math.random() * characters.length)]
+    console.log(randomCharacter)
 }
