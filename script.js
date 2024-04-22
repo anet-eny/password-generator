@@ -8,6 +8,14 @@ let passwordOne = ""
 let passwordTwo = ""
 
 function generatePassword() {
-    let randomCharacter = characters[Math.floor(Math.random() * characters.length)]
-    console.log(randomCharacter)
+    for (let i = 0; i < 15; i++) {
+        let randomCharacterOne = characters[Math.floor(Math.random() * characters.length)]
+        passwordOne += randomCharacterOne
+        let randomCharacterTwo = characters[Math.floor(Math.random() * characters.length)]
+        passwordTwo += randomCharacterTwo
+    }
+    console.log(passwordOne)
+    console.log(passwordTwo)
+    rectangleOne.textContent = passwordOne
+    rectangleTwo.textContent = passwordTwo
 }
