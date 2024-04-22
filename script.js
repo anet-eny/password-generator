@@ -6,18 +6,17 @@ const rectangleTwo = document.getElementById("rectangle-two")
 
 let passwordOne = ""
 let passwordTwo = ""
+let passwordLength = 15
 
 function generatePassword() {
     passwordOne = ""
     passwordTwo = ""
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < passwordLength; i++) {
         let randomCharacterOne = characters[Math.floor(Math.random() * characters.length)]
         passwordOne += randomCharacterOne
         let randomCharacterTwo = characters[Math.floor(Math.random() * characters.length)]
         passwordTwo += randomCharacterTwo
     }
-    console.log(passwordOne)
-    console.log(passwordTwo)
     rectangleOne.textContent = passwordOne
     rectangleTwo.textContent = passwordTwo
 }
