@@ -38,8 +38,16 @@ button {
     color: white;
     background: #10B981;
     padding: 9px 16px;
+    margin-bottom: 20px;
     border-radius: 6px;
     border: none;
     font-family: Karla;
+    font-size: 16px;
+}
+
+hr {
+    border-color: #273549;
+    border-style: solid;
+    border-width: 1px 0 0 0;
 }
 
