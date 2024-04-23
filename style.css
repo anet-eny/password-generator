@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Karla;
 }
 
 #container {
@@ -14,11 +15,24 @@ body {
 
 h1 {
     font-size: 40px;
+    font-weight: 800;
     color: white;
     margin: 0;
     padding: 0;
+    line-height: 1;
 }
 
 .headingGreen {
     color: #4ADF86;
 }
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #D5D4D8;
+    margin: 0;
+    padding: 10px 0 50px 0;
+}
+
+
+
