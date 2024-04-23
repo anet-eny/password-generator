@@ -6,10 +6,8 @@ body {
 #container {
     width: 550px;
     height: 550px;
+    box-sizing: border-box;
     background: #1F2937;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     padding: 0 52px;
 }
 
@@ -51,3 +49,15 @@ hr {
     border-width: 1px 0 0 0;
 }
 
+#rectangles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#rectangle-one, #rectangle-two {
+    height: 39px;
+    width: 211px;
+    background-color: #273549;
+    border-radius: 6px;
+}
